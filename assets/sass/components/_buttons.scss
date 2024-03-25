@@ -1,0 +1,32 @@
+@use '../base/base';
+@use '../base/typography';
+
+.primary-button {
+  border: 1px solid base.$spanishGray;
+  color: base.$spanishGray;
+  background-color: base.$white;
+  transition: all ease-in .2s;
+  font-family: typography.$ptMono;
+  padding: .8rem;
+
+  &:hover {
+    border: 1px solid base.$black;
+    color: base.$black;
+  }
+
+}
+
+.secundary-button {
+  background-color: base.$shinyShamrock;
+  color: base.$white;
+  border: none;
+  transition: all ease-in .2s;
+  font-family: typography.$ptMono;
+  padding: .8rem;
+
+  &:hover {
+    background-color: base.$pastelGray;
+    color: base.$outerSpace;
+  }
+
+}

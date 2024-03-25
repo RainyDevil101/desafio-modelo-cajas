@@ -1,0 +1,15 @@
+@use '../base/base';
+
+a {
+  text-decoration: none;
+  color: base.$spanishGray;
+  transition: all ease-in 0.3s;
+
+  &:visited {
+    color: base.$spanishGray;
+  }
+
+  &:hover {
+    color: base.$black;
+  }
+}

@@ -1,0 +1,93 @@
+@use './typography';
+
+// Globals
+
+//  Variables
+$white: #fff;
+$isabelline: #eeeded;
+$spanishGray: #989797;
+$coral: #fa824c;
+$buff: #f1dd7b;
+$vanilla: #f5e7a1;
+$flame: #e4572e;
+$lightRedOchre: #e87554;
+$pastelPink: #f2b2a0;
+$shinyShamrock: #4ca866;
+$turquoiseGreen: #0dcfab;
+$pastelGray: #bddfc7;
+$blueDeFrance: #3c91e6;
+$blueJeans: #5fa5ea;
+$jordyBlue: #82b9ef;
+$black: #000000;
+$outerSpace: #454545;
+$quickSilver: #a2a2a2;
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  text-wrap: pretty;
+  font-family: typography.$ptMono;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+img {
+  width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+a,
+a:visited {
+  color: #000000;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  margin: auto 1rem;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 1.2rem;
+}
+
+.xxx-large {
+  font-size: 7rem;
+}
+
+.xx-large {
+  font-size: 4rem;
+}
+
+.x-large {
+  font-size: 3rem;
+}
+
+.large {
+  font-size: 1.8rem;
+}
+
+.medium {
+  font-size: 1.6rem;
+}

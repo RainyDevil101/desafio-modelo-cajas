@@ -1,0 +1,131 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  text-wrap: pretty;
+  font-family: "PT Mono";
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+img {
+  width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+a,
+a:visited {
+  color: #000000;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  margin: auto 1rem;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 1.2rem;
+}
+
+.xxx-large {
+  font-size: 7rem;
+}
+
+.xx-large {
+  font-size: 4rem;
+}
+
+.x-large {
+  font-size: 3rem;
+}
+
+.large {
+  font-size: 1.8rem;
+}
+
+.medium {
+  font-size: 1.6rem;
+}
+
+.primary-button {
+  border: 1px solid #989797;
+  color: #989797;
+  background-color: #fff;
+  transition: all ease-in 0.2s;
+  font-family: "PT Mono";
+  padding: 0.8rem;
+}
+.primary-button:hover {
+  border: 1px solid #000000;
+  color: #000000;
+}
+
+.secundary-button {
+  background-color: #4ca866;
+  color: #fff;
+  border: none;
+  transition: all ease-in 0.2s;
+  font-family: "PT Mono";
+  padding: 0.8rem;
+}
+.secundary-button:hover {
+  background-color: #bddfc7;
+  color: #454545;
+}
+
+a {
+  text-decoration: none;
+  color: #989797;
+  transition: all ease-in 0.3s;
+}
+a:visited {
+  color: #989797;
+}
+a:hover {
+  color: #000000;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.links__url {
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+}
+
+.links__logo {
+  width: 3.5rem;
+}
+
+/*# sourceMappingURL=styles.css.map */

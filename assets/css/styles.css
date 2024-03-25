@@ -50,10 +50,12 @@ button {
 
 .xxx-large {
   font-size: 7rem;
+  font-weight: 300;
 }
 
 .xx-large {
   font-size: 4rem;
+  font-weight: 300;
 }
 
 .x-large {
@@ -66,6 +68,70 @@ button {
 
 .medium {
   font-size: 1.6rem;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  position: relative;
+  min-height: 43rem;
+}
+
+.header__agere {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.header__data {
+  position: relative;
+}
+
+.header__content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: auto;
+}
+
+.header__content--text, .data__text {
+  font-family: "Roboto";
+}
+
+.data {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  gap: 2rem;
+  padding: 2rem;
+  background-color: #fff;
+  right: 0;
+  margin-top: 4rem;
+}
+
+.header__symbol--yellow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: auto;
+  padding: 6.5rem;
+  background-color: #f1dd7b;
+}
+
+.header__symbol--red {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: auto;
+  padding: 6.5rem;
+  background-color: #e87554;
+  position: absolute;
+  bottom: 0;
+  transform: translateX(-10%) translateY(-15%);
+}
+.header__symbol--red p {
+  position: absolute;
 }
 
 .primary-button {

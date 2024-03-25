@@ -19,3 +19,18 @@
 .links__logo {
   width: 3.5rem;
 }
+
+.buttons {
+  display: flex;
+}
+
+@media (max-width: 1080px) {
+
+  .navbar {
+    flex-direction: column;
+  }
+
+  .links__url {
+    display: none;
+  }
+}
